@@ -68,7 +68,7 @@ namespace esphome
                     uint16_t height = this->getHeight();
                     uint16_t width  = this->getWidth();
 
-                    gfx->setTextColor(LIGHTGREY);
+                    gfx->setTextColor(SHOWOFFLINETEXTCOLOR);
                     gfx->setTextDatum(middle_center);
 
                     this->setFontByName(this->fontName);
