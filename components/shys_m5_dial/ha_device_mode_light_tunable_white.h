@@ -55,14 +55,14 @@ namespace esphome
 
                     uint16_t ypos = getDisplayPositionY(currentValue);
 
-                    gfx->setTextColor(MAROON);
+                    gfx->setTextColor(SHOWONOFFMENUTEXT); //MAROON
                     gfx->setTextDatum(middle_center);
 
                     gfx->startWrite();                      // Secure SPI bus
 
                     gfx->fillRect(0, 0, width, height, colorTemperatureToRGB(currentValue) );
 
-                    gfx->drawLine(0, ypos, width, ypos, RED );
+                    gfx->drawLine(0, ypos, width, ypos, SHOWONOFFMENUBACK_OFF ); //RED
 
                     display.setFontsize(3);
                     gfx->drawString((String(currentValue) + "K").c_str(),
