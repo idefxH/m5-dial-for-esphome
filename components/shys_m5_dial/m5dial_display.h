@@ -108,13 +108,13 @@ namespace esphome
                     uint16_t height = this->getHeight();
                     uint16_t width  = this->getWidth();
 
-                    gfx->setTextColor(MAROON);
+                    gfx->setTextColor(SHOWUNKNOWNTEXTCOLOR);
                     gfx->setTextDatum(middle_center);
 
                     this->setFontByName(this->fontName);
 
                     gfx->startWrite();                      // Secure SPI bus
-                    gfx->fillRect(0, 0, width, height, ORANGE);
+                    gfx->fillRect(0, 0, width, height, SHOWUNKNOWNBACKCOLOR);
                     
                     this->setFontsize(2);
 
