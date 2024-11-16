@@ -88,13 +88,13 @@ namespace esphome
                     uint16_t height = this->getHeight();
                     uint16_t width  = this->getWidth();
 
-                    gfx->setTextColor(WHITE);
+                    gfx->setTextColor(SHOWDISCONNECTEDTEXTCOLOR);
                     gfx->setTextDatum(middle_center);
 
                     this->setFontByName(this->fontName);
 
                     gfx->startWrite();                      // Secure SPI bus
-                    gfx->fillRect(0, 0, width, height, BLUE);
+                    gfx->fillRect(0, 0, width, height, SHOWDISCONECTECBACKCOLOR);
                     
                     this->setFontsize(1);
                     gfx->drawString("DISCONNECTED",
