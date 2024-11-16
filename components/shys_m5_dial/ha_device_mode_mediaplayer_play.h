@@ -38,12 +38,12 @@ namespace esphome
                     uint16_t height = gfx->height();
                     uint16_t width  = gfx->width();
 
-                    gfx->setTextColor(SHOWONOFFMENUTEXTCOLOR); #MAROON
+                    gfx->setTextColor(SHOWONOFFMENUTEXTCOLOR); //MAROON
                     gfx->setTextDatum(middle_center);
 
                     gfx->startWrite();                      // Secure SPI bus
 
-                    gfx->fillRect(0, 0, width, height, SHOWONOFFMENUBACKCOLOR_ON); #YELLOW
+                    gfx->fillRect(0, 0, width, height, SHOWONOFFMENUBACKCOLOR_ON); //YELLOW
 
                     // Round Volume Bar
                     gfx->fillArc(width / 2,
@@ -92,27 +92,27 @@ namespace esphome
                     }
 
                     // Position Bar
-                    gfx->fillRect(width/2-40, height/2+90, 80, 5, SHOWONOFFMENUBACKCOLOR_UND); #ORANGE
-                    gfx->fillRect(width/2-40, height/2+90, ((float)80 /100* getMediaPositionPct()), 5, SHOWONOFFMENUBACKCOLOR_OFF); #RED
+                    gfx->fillRect(width/2-40, height/2+90, 80, 5, SHOWONOFFMENUBACKCOLOR_UND); //ORANGE
+                    gfx->fillRect(width/2-40, height/2+90, ((float)80 /100* getMediaPositionPct()), 5, SHOWONOFFMENUBACKCOLOR_OFF); //RED
 
 
 
                     if(strcmp(this->player_state.c_str(), "playing") == 0){
                         // Pause Button
-                        gfx->fillRect(width/2-20, height/2-20, 15, 40, SHOWONOFFMENUBACKCOLOR_OFF); #RED
-                        gfx->fillRect(width/2+5, height/2-20, 15, 40, SHOWONOFFMENUBACKCOLOR_OFF); #RED
+                        gfx->fillRect(width/2-20, height/2-20, 15, 40, SHOWONOFFMENUBACKCOLOR_OFF); //RED
+                        gfx->fillRect(width/2+5, height/2-20, 15, 40, SHOWONOFFMENUBACKCOLOR_OFF); //RED
                     } else {
                         // Play Button
-                        M5Dial.Display.fillTriangle(width/2-13, height/2-20, width/2-13, height/2+20, width/2+23, height/2, SHOWONOFFMENUBACKCOLOR_OFF); #RED
+                        M5Dial.Display.fillTriangle(width/2-13, height/2-20, width/2-13, height/2+20, width/2+23, height/2, SHOWONOFFMENUBACKCOLOR_OFF); //RED
                     }
 
                     // FWD
-                    M5Dial.Display.fillTriangle(width/2+50, height/2-20, width/2+50, height/2+20, width/2+75, height/2, SHOWONOFFMENUBACKCOLOR_OFF); #RED
-                    M5Dial.Display.fillTriangle(width/2+65, height/2-20, width/2+65, height/2+20, width/2+95, height/2, SHOWONOFFMENUBACKCOLOR_OFF); #RED
+                    M5Dial.Display.fillTriangle(width/2+50, height/2-20, width/2+50, height/2+20, width/2+75, height/2, SHOWONOFFMENUBACKCOLOR_OFF); //RED
+                    M5Dial.Display.fillTriangle(width/2+65, height/2-20, width/2+65, height/2+20, width/2+95, height/2, SHOWONOFFMENUBACKCOLOR_OFF); //RED
 
                     // PREV
-                    M5Dial.Display.fillTriangle(width/2-50, height/2-20, width/2-50, height/2+20, width/2-75, height/2, SHOWONOFFMENUBACKCOLOR_OFF); #RED
-                    M5Dial.Display.fillTriangle(width/2-65, height/2-20, width/2-65, height/2+20, width/2-95, height/2, SHOWONOFFMENUBACKCOLOR_OFF); #RED
+                    M5Dial.Display.fillTriangle(width/2-50, height/2-20, width/2-50, height/2+20, width/2-75, height/2, SHOWONOFFMENUBACKCOLOR_OFF); //RED
+                    M5Dial.Display.fillTriangle(width/2-65, height/2-20, width/2-65, height/2+20, width/2-95, height/2, SHOWONOFFMENUBACKCOLOR_OFF); //RED
 
 
                     gfx->endWrite();                      // Release SPI bus
