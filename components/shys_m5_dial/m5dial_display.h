@@ -74,7 +74,7 @@ namespace esphome
                     this->setFontByName(this->fontName);
 
                     gfx->startWrite();                      // Secure SPI bus
-                    gfx->fillRect(0, 0, width, height, DARKGREY);
+                    gfx->fillRect(0, 0, width, height, SHOWOFFLINEBACKCOLOR);
                     
                     this->setFontsize(2);
                     gfx->drawString("OFFLINE",
