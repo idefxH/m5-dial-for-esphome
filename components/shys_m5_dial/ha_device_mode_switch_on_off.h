@@ -22,12 +22,12 @@ namespace esphome
                     uint16_t height = gfx->height();
                     uint16_t width  = gfx->width();
 
-                    gfx->setTextColor(SHOWONOFFMENUTEXTCOLOR);
+                    gfx->setTextColor(SHOWONOFFMENUTEXTCOLOR); //MAROON
                     gfx->setTextDatum(middle_center);
 
                     gfx->startWrite();                      // Secure SPI bus
 
-                    gfx->fillRect(0, 0, width, height, currentValue>0?SHOWONOFFMENUBACKCOLOR_OFF:SHOWONOFFMENUBACKCOLOR_ON);
+                    gfx->fillRect(0, 0, width, height, currentValue>0?SHOWONOFFMENUBACKCOLOR_OFF:SHOWONOFFMENUBACKCOLOR_ON); //RED:YELLOW
 
                     display.setFontsize(3);
                     gfx->drawString(currentValue>0?"on":"off",
