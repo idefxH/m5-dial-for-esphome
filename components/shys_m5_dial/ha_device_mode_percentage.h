@@ -12,13 +12,13 @@ namespace esphome
                     uint16_t height = gfx->height();
                     uint16_t width  = gfx->width();
 
-                    gfx->setTextColor(SHOWONOFFMENUTEXTCOLOR); #MAROON
+                    gfx->setTextColor(SHOWONOFFMENUTEXTCOLOR); //MAROON
                     gfx->setTextDatum(middle_center);
 
                     gfx->startWrite();                      // Secure SPI bus
 
-                    gfx->fillRect(0, 0, width, this->getDisplayPositionY(getValue()) , SHOWONOFFMENUBACKCOLOR_OFF);
-                    gfx->fillRect(0, this->getDisplayPositionY(getValue()), width, height, SHOWONOFFMENUBACKCOLOR_ON);
+                    gfx->fillRect(0, 0, width, this->getDisplayPositionY(getValue()) , SHOWONOFFMENUBACKCOLOR_OFF); //RED
+                    gfx->fillRect(0, this->getDisplayPositionY(getValue()), width, height, SHOWONOFFMENUBACKCOLOR_ON); //YELLOW
 
                     display.setFontsize(3);
                     gfx->drawString((String(getValue()) + "%").c_str(),
