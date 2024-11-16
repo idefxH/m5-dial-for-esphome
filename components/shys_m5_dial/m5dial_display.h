@@ -1,6 +1,7 @@
 #pragma once
 #include "M5Dial.h"
 #include "esphome.h"
+#include "m5dial_display_colors.h"
 
 namespace esphome
 {
