@@ -24,12 +24,12 @@ namespace esphome
                     uint16_t height = gfx->height();
                     uint16_t width  = gfx->width();
 
-                    gfx->setTextColor(SHOWONOFFMENUTEXTCOLOR); #MAROON
+                    gfx->setTextColor(SHOWONOFFMENUTEXTCOLOR); //MAROON
                     gfx->setTextDatum(middle_center);
 
                     gfx->startWrite();                      // Secure SPI bus
 
-                    gfx->fillRect(0, 0, width, height, SHOWONOFFMENUBACKCOLOR_ON); #YELLOW
+                    gfx->fillRect(0, 0, width, height, SHOWONOFFMENUBACKCOLOR_ON); //YELLOW
 
                     // Device Name
                     display.setFontsize(1);
