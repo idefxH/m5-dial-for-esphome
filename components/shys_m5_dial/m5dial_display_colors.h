@@ -1,1 +1,1 @@
-#define showOfflineTextColor LIGHTGREY
+#define SHOWOFFLINETEXTCOLOR LIGHTGREY
