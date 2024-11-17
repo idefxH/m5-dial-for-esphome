@@ -15,7 +15,7 @@ namespace esphome
         void ShysM5Dial::setup()
         {
             ShysM5Dial::initDevice();
-            ESP_LOGI("log", "%s", "M5 is initialized");
+            ESP_LOGI("log", "%s", "M5 is initialised");
         }
 
         /**
