@@ -35,7 +35,7 @@ namespace esphome
         /**
          * @brief dump_config
          *
-         * Ausgabe der aktuellen Konfiguration im Log nach Initialisierung
+         * Output of the current configuration in the log after initialization
          */
         void ShysM5Dial::dump_config()
         {
