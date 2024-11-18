@@ -1,31 +1,31 @@
 
 // Temperature Menu
-#define TemperatureMenuTextColor      WHITE
+#define TemperatureMenuTextColor      BLACK
 #define TemperatureMenuBackColorOff   RED
 #define TemperatureMenuBackColorOn    PINK
 
 // Fan Menu
-#define FanMenuTextColor              WHITE
+#define FanMenuTextColor              BLACK
 #define FanMenuBackColorOff           DARKGREEN
 #define FanMenuBackColorOn            GREEN
 
 // Light Brightness Menu
-#define BrightnessMenuTextColor       WHITE
+#define BrightnessMenuTextColor       BLACK
 #define BrightnessMenuBackColorOff    DARKCYAN
 #define BrightnessMenuBackColorOn     CYAN
 
 // On/Off Light Menu
-#define OnOffMenuTextColor            WHITE
+#define OnOffMenuTextColor            BLACK
 #define OnOffMenuBackColorOff         BROWN
 #define OnOffMenuBackColorOn          YELLOW
 
 // Tunable White Light Menu
-#define TunableWhiteMenuTextColor     WHITE
+#define TunableWhiteMenuTextColor     BLACK
 #define TunableWhiteMenuBackColorOff  NAVY
 #define TunableWhiteMenuBackColorOn   BLUE
 
 // Lock Menu
-#define LockStatusMenuTextColor       WHITE
+#define LockStatusMenuTextColor       BLACK
 #define LockStatusMenuBackColorOff    DARKGREEN
 #define LockStatusMenuBackColorOn     GREEN
 
@@ -41,17 +41,17 @@
 #define SourceSelectionBackColorOn    YELLOW
 
 // Percentage Menu
-#define PercentageMenuTextColor       WHITE
+#define PercentageMenuTextColor       BLACK
 #define PercentageMenuBackColorOff    PURPLE
 #define PercentageMenuBackColorOn     VIOLET
 
 // On/Off Menu
-#define OnOffMenuTextColor            WHITE
+#define OnOffMenuTextColor            BLACK
 #define OnOffMenuBackColorOff         NAVY
 #define OnOffMenuBackColorOn          BLUE
 
 // Network Menu
-#define OfflineTextColor              WHITE
+#define OfflineTextColor              BLACK
 #define OfflineBackColor              DARKGREY
 #define DisconnectedTextColor         WHITE
 #define DisconnectedBackColor         LIGHTGREY
