@@ -68,13 +68,13 @@ namespace esphome
                     uint16_t height = this->getHeight();
                     uint16_t width  = this->getWidth();
 
-                    gfx->setTextColor(SHOWOFFLINETEXTCOLOR);
+                    gfx->setTextColor(OfflineTextColor);
                     gfx->setTextDatum(middle_center);
 
                     this->setFontByName(this->fontName);
 
                     gfx->startWrite();                      // Secure SPI bus
-                    gfx->fillRect(0, 0, width, height, SHOWOFFLINEBACKCOLOR);
+                    gfx->fillRect(0, 0, width, height, OfflineBackColor);
                     
                     this->setFontsize(2);
                     gfx->drawString("OFFLINE",
@@ -88,13 +88,13 @@ namespace esphome
                     uint16_t height = this->getHeight();
                     uint16_t width  = this->getWidth();
 
-                    gfx->setTextColor(SHOWDISCONNECTEDTEXTCOLOR);
+                    gfx->setTextColor(DisconnectedTextColor);
                     gfx->setTextDatum(middle_center);
 
                     this->setFontByName(this->fontName);
 
                     gfx->startWrite();                      // Secure SPI bus
-                    gfx->fillRect(0, 0, width, height, SHOWDISCONNECTEDBACKCOLOR);
+                    gfx->fillRect(0, 0, width, height, DisconnectedBackColor);
                     
                     this->setFontsize(1);
                     gfx->drawString("DISCONNECTED",
@@ -108,13 +108,13 @@ namespace esphome
                     uint16_t height = this->getHeight();
                     uint16_t width  = this->getWidth();
 
-                    gfx->setTextColor(SHOWUNKNOWNTEXTCOLOR);
+                    gfx->setTextColor(UnknownTextColor);
                     gfx->setTextDatum(middle_center);
 
                     this->setFontByName(this->fontName);
 
                     gfx->startWrite();                      // Secure SPI bus
-                    gfx->fillRect(0, 0, width, height, SHOWUNKNOWNBACKCOLOR);
+                    gfx->fillRect(0, 0, width, height, UnknownBackColor);
                     
                     this->setFontsize(2);
 

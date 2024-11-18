@@ -289,7 +289,7 @@ namespace esphome
 
         } else {
           if(lastLoop != 3){
-            ESP_LOGD("wifi", "Network no conectado");
+            ESP_LOGD("wifi", "Network is not connected");
           }
           m5DialDisplay->showOffline();
           esphome::delay(10);
