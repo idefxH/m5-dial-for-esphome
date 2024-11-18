@@ -1,60 +1,91 @@
 
 // Temperature Menu
-#define TemperatureMenuTextColor      BLACK
-#define TemperatureMenuBackColorOff   RED
-#define TemperatureMenuBackColorOn    PINK
+#ifndef TemperatureMenuTextColor
+  #define TemperatureMenuTextColor      BLACK
+  #define TemperatureMenuBackColorOff   RED
+  #define TemperatureMenuBackColorOn    PINK
+#endif
 
 // Fan Menu
-#define FanMenuTextColor              BLACK
-#define FanMenuBackColorOff           DARKGREEN
-#define FanMenuBackColorOn            GREEN
+#ifndef FanMenuTextColor
+  #define FanMenuTextColor              BLACK
+  #define FanMenuBackColorOff           DARKGREEN
+  #define FanMenuBackColorOn            GREEN
+#endif
 
 // Light Brightness Menu
-#define BrightnessMenuTextColor       BLACK
-#define BrightnessMenuBackColorOff    DARKCYAN
-#define BrightnessMenuBackColorOn     CYAN
+#ifndef BrightnessMenuTextColor
+  #define BrightnessMenuTextColor       BLACK
+  #define BrightnessMenuBackColorOff    DARKCYAN
+  #define BrightnessMenuBackColorOn     CYAN
+#endif
 
 // On/Off Light Menu
-#define OnOffMenuTextColor            BLACK
-#define OnOffMenuBackColorOff         BROWN
-#define OnOffMenuBackColorOn          YELLOW
+#ifndef OnOffMenuTextColor
+  #define OnOffMenuTextColor            BLACK
+  #define OnOffMenuBackColorOff         BROWN
+  #define OnOffMenuBackColorOn          YELLOW
+#endif
 
 // Tunable White Light Menu
-#define TunableWhiteMenuTextColor     BLACK
-#define TunableWhiteMenuBackColorOff  NAVY
-#define TunableWhiteMenuBackColorOn   BLUE
+#ifndef TunableWhiteMenuTextColor
+  #define TunableWhiteMenuTextColor     BLACK
+  #define TunableWhiteMenuBackColorOff  NAVY
+  #define TunableWhiteMenuBackColorOn   BLUE
+#endif
 
 // Lock Menu
-#define LockStatusMenuTextColor       BLACK
-#define LockStatusMenuBackColorOff    DARKGREEN
-#define LockStatusMenuBackColorOn     GREEN
+#ifndef LockStatusMenuTextColor
+  #define LockStatusMenuTextColor       BLACK
+  #define LockStatusMenuBackColorOff    DARKGREEN
+  #define LockStatusMenuBackColorOn     GREEN
+#endif
 
 // Media Player Menu
-#define PlayMenuTextColor             BLACK
-#define PlayMenuBackColorOff          GOLD
-#define PlayMenuBackColorOn           YELLOW
-#define PlayMenuBackColorTran         ORANGE
+#ifndef PlayMenuTextColor
+  #define PlayMenuTextColor             BLACK
+  #define PlayMenuBackColorOff          GOLD
+  #define PlayMenuBackColorOn           YELLOW
+  #define PlayMenuBackColorTran         ORANGE
+#endif
 
 // Media Player Source Menu
-#define SourceSelectionTextColor      BLACK
-#define SourceSelectionBackColorOff   GOLD
-#define SourceSelectionBackColorOn    YELLOW
+#ifndef SourceSelectionTextColor
+  #define SourceSelectionTextColor      BLACK
+  #define SourceSelectionBackColorOff   GOLD
+  #define SourceSelectionBackColorOn    YELLOW
+#endif
 
 // Percentage Menu
-#define PercentageMenuTextColor       BLACK
-#define PercentageMenuBackColorOff    PURPLE
-#define PercentageMenuBackColorOn     VIOLET
+#ifndef PercentageMenuTextColor
+  #define PercentageMenuTextColor       BLACK
+  #define PercentageMenuBackColorOff    PURPLE
+  #define PercentageMenuBackColorOn     VIOLET
+#endif
 
 // On/Off Menu
-#define OnOffMenuTextColor            BLACK
-#define OnOffMenuBackColorOff         NAVY
-#define OnOffMenuBackColorOn          BLUE
+#ifndef OnOffMenuTextColor
+  #define OnOffMenuTextColor            BLACK
+  #define OnOffMenuBackColorOff         NAVY
+  #define OnOffMenuBackColorOn          BLUE
+#endif
 
 // Network Menu
-#define OfflineTextColor              BLACK
-#define OfflineBackColor              DARKGREY
-#define DisconnectedTextColor         WHITE
-#define DisconnectedBackColor         LIGHTGREY
-#define UnknownTextColor              WHITE
-#define UnknownBackColor              RED
-
+#ifndef OfflineTextColor
+  #define OfflineTextColor              BLACK
+#endif
+#ifndef OfflineBackColor
+  #define OfflineBackColor              DARKGREY
+#endif
+#ifndef DisconnectedTextColor
+  #define DisconnectedTextColor         WHITE
+#endif
+#ifndef DisconnectedBackColor
+  #define DisconnectedBackColor         LIGHTGREY
+#endif
+#ifndef UnknownTextColor
+  #define UnknownTextColor              WHITE
+#endif
+#ifndef UnknownBackColor
+  #define UnknownBackColor              RED
+#endif
