@@ -32,15 +32,15 @@
   #define BrightnessMenuBackColorOn     CYAN
 #endif
 
-// On/Off Light Menu
-#ifndef OnOffMenuTextColor
-  #define OnOffMenuTextColor            BLACK
+// Light On/Off Menu
+#ifndef LightOnOffMenuTextColor
+  #define LightOnOffMenuTextColor            BLACK
 #endif
-#ifndef OnOffMenuBackColorOff
-  #define OnOffMenuBackColorOff         BROWN
+#ifndef LightOnOffMenuBackColorOff
+  #define LightOnOffMenuBackColorOff         BROWN
 #endif
-#ifndef OnOffMenuBackColorOn
-  #define OnOffMenuBackColorOn          YELLOW
+#ifndef LightOnOffMenuBackColorOn
+  #define LightOnOffMenuBackColorOn          YELLOW
 #endif
 
 // Tunable White Light Menu
@@ -101,15 +101,15 @@
   #define PercentageMenuBackColorOn     VIOLET
 #endif
 
-// On/Off Menu
-#ifndef OnOffMenuTextColor
-  #define OnOffMenuTextColor            BLACK
+// Switch On/Off Menu
+#ifndef SwitchOnOffMenuTextColor
+  #define SwitchOnOffMenuTextColor            BLACK
 #endif
-#ifndef OnOffMenuBackColorOff
-  #define OnOffMenuBackColorOff         NAVY
+#ifndef SwitchOnOffMenuBackColorOff
+  #define SwitchOnOffMenuBackColorOff         NAVY
 #endif
-#ifndef OnOffMenuBackColorOn
-  #define OnOffMenuBackColorOn          BLUE
+#ifndef SwitchOnOffMenuBackColorOn
+  #define SwitchOnOffMenuBackColorOn          BLUE
 #endif
 
 // Network Menu
