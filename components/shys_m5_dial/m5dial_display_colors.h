@@ -81,13 +81,13 @@
 
 // Media Player Source Menu
 #ifndef SourceSelectionTextColor
-  #define SourceSelectionTextColor      BLACK
+  #define SourceSelectionTextColor      WHITE
 #endif
 #ifndef SourceSelectionBackColorOff
-  #define SourceSelectionBackColorOff   GOLD
+  #define SourceSelectionBackColorOff   RED
 #endif
 #ifndef SourceSelectionBackColorOn
-  #define SourceSelectionBackColorOn    YELLOW
+  #define SourceSelectionBackColorOn    BLACK
 #endif
 
 // Percentage Menu
