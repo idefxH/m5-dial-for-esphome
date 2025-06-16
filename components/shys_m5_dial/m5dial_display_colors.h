@@ -76,7 +76,7 @@
   #define PlayMenuBackColorOn           BLACK
 #endif
 #ifndef PlayMenuBackColorTran
-  #define PlayMenuBackColorTran         DARKGREY
+  #define PlayMenuBackColorTran         0X5A5A5A
 #endif
 
 // Media Player Source Menu
