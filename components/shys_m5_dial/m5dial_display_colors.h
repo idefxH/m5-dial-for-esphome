@@ -67,13 +67,13 @@
 
 // Media Player Menu
 #ifndef PlayMenuTextColor
-  #define PlayMenuTextColor             BLACK
+  #define PlayMenuTextColor             WHITE
 #endif
 #ifndef PlayMenuBackColorOff
-  #define PlayMenuBackColorOff          GOLD
+  #define PlayMenuBackColorOff          RED
 #endif
 #ifndef PlayMenuBackColorOn
-  #define PlayMenuBackColorOn           YELLOW
+  #define PlayMenuBackColorOn           BLACK
 #endif
 #ifndef PlayMenuBackColorTran
   #define PlayMenuBackColorTran         ORANGE
